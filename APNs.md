@@ -2,7 +2,7 @@
 
 
 ## Apple Push Notification service
-![](https://github.com/drunkbread/PushTest/blob/master/APNs-1%EF%BC%88%E7%AE%80%E5%8D%95%E6%B5%81%E7%A8%8B%EF%BC%89.png)
+![](https://github.com/drunkbread/PushTest/blob/master/attchments/APNs-1%EF%BC%88%E7%AE%80%E5%8D%95%E6%B5%81%E7%A8%8B%EF%BC%89.png)
 
 #### Provider   
 - 从app接收devicetoken以及相关数据
@@ -254,9 +254,9 @@ UNNotificationCategory *category = [UNNotificationCategory categoryWithIdentifie
 
 #### 添加扩展
 Xcode —> File —> New —> Target   选择创建`Notification Service Extension`
-![](https://github.com/drunkbread/PushTest/blob/master/Push-ServiceExtension.png)
+![](https://github.com/drunkbread/PushTest/blob/master/attchments/Push-ServiceExtension.png)
 此时工程里可以看到以下目录   
-![](https://github.com/drunkbread/PushTest/blob/master/Push2.png)   
+![](https://github.com/drunkbread/PushTest/blob/master/attchments/Push2.png)   
 可以看到有一个自动创建好的类 `NotificationService`,继承自`UNNotificationServiceExtension`，在NotificationService类里有两个方法：
 
 ```objc
@@ -325,13 +325,13 @@ Xcode —> File —> New —> Target   选择创建`Notification Service Extensi
 }
 ```
 效果如图：
-![](https://github.com/drunkbread/PushTest/blob/master/Push-3.PNG)
+![](https://github.com/drunkbread/PushTest/blob/master/attchments/Push-3.PNG)
 
 ### 自定义推送显示界面
 Xcode —> File —> New —> Target —> Notification Content Extension
-![](https://github.com/drunkbread/PushTest/blob/master/Push-4.png)
+![](https://github.com/drunkbread/PushTest/blob/master/attchments/Push-4.png)
 创建之后工程可以看到以下目录：   
-![](https://github.com/drunkbread/PushTest/blob/master/Push-5.png)   
+![](https://github.com/drunkbread/PushTest/blob/master/attchments/Push-5.png)   
 在storyboard中自定义UI界面。这个界面只能用于显示，不能响应点击或者手势等其他事件。
 
 ```objc
@@ -372,13 +372,13 @@ Xcode —> File —> New —> Target —> Notification Content Extension
 
 ```
 
-![](https://github.com/drunkbread/PushTest/blob/master/IMG_0356.PNG)
+![](https://github.com/drunkbread/PushTest/blob/master/attchments/IMG_0356.PNG)
 
 - 如果不想在storyboard中处理UI，需要在Notifications Content 的info.plist中把 `NSExtensionMainStoryboard ` 替换为 `NSExtensionPrincipalClass `，value对应你的类名.
 - `UNNotificationExtensionCategory` 和推送payload中category字段保持一致。
 - `UNNotificationExtensionDefaultContentHidden` 是否显示默认的内容
 
-![](https://github.com/drunkbread/PushTest/blob/master/Push-6.png)
+![](https://github.com/drunkbread/PushTest/blob/master/attchments/Push-6.png)
 
 
 

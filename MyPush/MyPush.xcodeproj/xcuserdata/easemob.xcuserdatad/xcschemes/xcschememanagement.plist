@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>ContentExtension.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+		<key>MyPush.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>NotificationExtension.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>PushExtension.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>D245280B1E4B6F7500C6A0FE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D24528241E4B6F7500C6A0FE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D245282F1E4B6F7500C6A0FE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D2C56F271E559308007159F5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D2C56F371E55935F007159F5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D2E268FA1E4C5E9B0042AD2B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

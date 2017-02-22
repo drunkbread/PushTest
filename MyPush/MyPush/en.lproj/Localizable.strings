@@ -1,0 +1,17 @@
+/* 
+  Localizable.strings
+  MyPush
+
+  Created by EaseMob on 2017/2/14.
+  Copyright © 2017年 EaseMob. All rights reserved.
+*/
+"PLAY" = "PLAY";
+"MID" = "I Want to make this English!";
+"UnlockScreen" = "Unlock Screen";
+"clear" = "Try Clear";
+"LaunchApp" = "Launch App";
+"Destructive" = "Destructive";
+"Send" = "Send";
+"Input" = "Input here ...";
+"title.input" = "Input";
+"PUSH_KEY" = "%@ is the greatest basketball player!";

@@ -1,0 +1,3 @@
+target 'MyPush' do 
+pod 'HyphenateLite'
+end

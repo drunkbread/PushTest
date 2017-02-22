@@ -2,7 +2,7 @@
 
 
 ## Apple Push Notification service
-![](/Users/easemob/Desktop/APNs/APNs-1（简单流程）.png)
+![](https://github.com/drunkbread/PushTest/blob/master/Push-4.png)
 
 #### Provider   
 - 从app接收devicetoken以及相关数据

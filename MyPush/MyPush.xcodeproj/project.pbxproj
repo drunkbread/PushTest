@@ -16,6 +16,7 @@
 		D245281F1E4B6F7500C6A0FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D245281D1E4B6F7500C6A0FE /* LaunchScreen.storyboard */; };
 		D245282A1E4B6F7500C6A0FE /* MyPushTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D24528291E4B6F7500C6A0FE /* MyPushTests.m */; };
 		D24528351E4B6F7500C6A0FE /* MyPushUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D24528341E4B6F7500C6A0FE /* MyPushUITests.m */; };
+		D2B7A01F1E5EC926004D48C1 /* s2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = D2B7A01E1E5EC926004D48C1 /* s2.m4a */; };
 		D2C56F2C1E559308007159F5 /* NotificationService.m in Sources */ = {isa = PBXBuildFile; fileRef = D2C56F2B1E559308007159F5 /* NotificationService.m */; };
 		D2C56F301E559308007159F5 /* NotificationExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D2C56F281E559308007159F5 /* NotificationExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		D2C56F3A1E55935F007159F5 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2C56F391E55935F007159F5 /* UserNotifications.framework */; };
@@ -96,6 +97,7 @@
 		D24528341E4B6F7500C6A0FE /* MyPushUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyPushUITests.m; sourceTree = "<group>"; };
 		D24528361E4B6F7500C6A0FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D24528421E4B7D1700C6A0FE /* MyPush.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MyPush.entitlements; sourceTree = "<group>"; };
+		D2B7A01E1E5EC926004D48C1 /* s2.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = s2.m4a; sourceTree = "<group>"; };
 		D2C56F281E559308007159F5 /* NotificationExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = NotificationExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2C56F2A1E559308007159F5 /* NotificationService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationService.h; sourceTree = "<group>"; };
 		D2C56F2B1E559308007159F5 /* NotificationService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationService.m; sourceTree = "<group>"; };
@@ -181,6 +183,7 @@
 		D24528031E4B6F7400C6A0FE = {
 			isa = PBXGroup;
 			children = (
+				D2B7A01E1E5EC926004D48C1 /* s2.m4a */,
 				D245280E1E4B6F7500C6A0FE /* MyPush */,
 				D24528281E4B6F7500C6A0FE /* MyPushTests */,
 				D24528331E4B6F7500C6A0FE /* MyPushUITests */,
@@ -438,6 +441,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2B7A01F1E5EC926004D48C1 /* s2.m4a in Resources */,
 				D2EA3C9C1E52EAB900663939 /* Localizable.strings in Resources */,
 				D245281F1E4B6F7500C6A0FE /* LaunchScreen.storyboard in Resources */,
 				D2EA3C961E52E82F00663939 /* InfoPlist.strings in Resources */,
@@ -909,6 +913,7 @@
 				D2C56F331E559308007159F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D2C56F481E55935F007159F5 /* Build configuration list for PBXNativeTarget "ContentExtension" */ = {
 			isa = XCConfigurationList;
@@ -917,6 +922,7 @@
 				D2C56F4A1E55935F007159F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
